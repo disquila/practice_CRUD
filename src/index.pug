@@ -1,0 +1,17 @@
+doctype html
+html 
+    include html/head 
+    body
+        button(class='btn js-open-modal') Создать запись
+        input(class='inputSearch' type='text' placeholder='Поиск...' title='Поиск')
+        table(class='table')
+            thead
+                tr
+                    //- <th>#</th>
+                    th Аватар
+                    th ФИО
+                    th Дата рождения
+                    th Подписка
+            tbody(class='tbody')
+        script(src="./js/app.min.js")
+    
